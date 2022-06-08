@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    font-weight: 300;
+    src: url("/src/fonts/Montserrat-ExtraLight.woff2") format('woff2');
+    style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    font-weight: 400;
+    src: url("/src/fonts/Montserrat-Light.woff2") format('woff2');
+    style: normal;
+}
+
+
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    font-weight: 500;
+    src: url("/src/fonts/Montserrat-Thin.woff2") format('woff2');
+    style: normal;
+}
+
+
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    font-weight: 700;
+    src: url("/src/fonts/Montserrat-Bold.woff2") format('woff2');
+    style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    font-weight: 900;
+    src: url("/src/fonts/Montserrat-ExtraBold.woff2") format('woff2');
+    style: normal;
+}
+
+
+header > nav > ul {
+    background-color: white;
+}
+
+header > button {
+    border-color: white;
+    background-color: transparent;
+}
