@@ -49,3 +49,37 @@ header > button {
     border-color: white;
     background-color: transparent;
 }
+
+header > nav > ul > li:first-of-type {
+    font-size: 20px;
+}
+
+header > nav > ul > li:last-of-type {
+    color: aquamarine;
+}
+
+.contact form > label {
+    font-weight: lighter;
+}
+
+footer > ul > li > h2 {
+    color: cadetblue;
+}
+
+.contact form>input:hover {
+    color: olivedrab;
+}
+
+
+footer > ul > li > h2:first-of-type {
+    color: plum;
+}
+
+footer > ul > li > p:first-of-type {
+    color: lightgreen;
+}
+
+
+.contact form>select>option:hover {
+color: fuchsia;
+}
