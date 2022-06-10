@@ -144,14 +144,15 @@ font-family: Lato-Regular, sans-serif;
     width: 540px;
 }
 
-
+.features {
+    background-color: #FAFAFA;
+;
+}
 
 .features ul>li>h3 {
     font-family: Lato-Bold, sans-serif;
     font-size: 18px;
 }
-
-
 
 .features ul>li>a {
     color: #ED4C5C;
@@ -176,6 +177,25 @@ font-family: Lato-Regular, sans-serif;
     line-height: 1.2;
 }
 
+.map-navigation {
+    background-color: #ED4C5C;
+}
+
+.map-navigation h2 {
+    font-family: Lato-Bold, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.2;
+color: white;
+}
+
+.map-navigation p {
+    font-family: Lato-Light, sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 1.2;
+}
+
 .contact form > label {
     font-weight: lighter;
 }
@@ -184,21 +204,64 @@ footer > ul > li > h2 {
     color: cadetblue;
 }
 
-.contact form > input:hover {
-    color: olivedrab;
+.contact h2 {
+    font-family: Lato-Bold, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.contact p {
+    font-family: Lato-Light, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.contact form {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.contact form > input {
+    width: 255px;
+    height: 65px;
+    border-radius: 6px;
+}
+
+#select-service {
+    width: 540px;
+    height: 65px;
+    border-radius: 6px;
+    background-color: white;
+    color:  #13274380;
+
+}
+
+.contact button {
+    background-color: #ED4C5C;
+    color: white;
+    width: 160px;
+    height: 65px;
+    border-radius: 6px;
+}
+
+footer ul>li>h2 {
+    font-family: Lato-Bold, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: black;
 }
 
 
-footer > ul > li > h2:first-of-type {
-    color: plum;
-}
-
-footer > ul > li > p:first-of-type {
-    color: lightgreen;
-}
-
-
-.contact form > select > option:hover {
-    color: fuchsia;
+footer ul>li>p,a{
+    font-family: Lato-Light, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: black;
 }
 
