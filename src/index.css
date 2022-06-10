@@ -265,3 +265,29 @@ footer ul>li>p,a{
     color: black;
 }
 
+
+
+
+/* Selectors*/
+
+header nav > ul > li:first-letter {
+    font-size: 30px;
+}
+
+header nav > ul[title^='li'] {
+    color: fuchsia;
+}
+
+
+a[href^="#"]:hover {
+    font-size: 40px;
+}
+
+[title*='tt'] {
+    font-size: large;
+}
+
+
+[href$='more'] {
+    color: darkorchid;
+}
