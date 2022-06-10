@@ -2,7 +2,7 @@
     font-family: Lato-Thin;
     font-display: swap;
     font-weight: 300;
-    src: url("/src/fonts/Lato-Thin.woff2") format('woff2');
+    src: url("fonts/Lato-Thin.woff2") format('woff2');
     style: normal;
 }
 
@@ -10,7 +10,7 @@
     font-family: Lato-Light;
     font-display: swap;
     font-weight: 400;
-    src: url("/src/fonts/Lato-Light.woff2") format('woff2');
+    src: url("fonts/Lato-Light.woff2") format('woff2');
     style: normal;
 }
 
@@ -19,7 +19,7 @@
     font-family: Lato-Regular;
     font-display: swap;
     font-weight: 500;
-    src: url("/src/fonts/Lato-Regular.woff2") format('woff2');
+    src: url("fonts/Lato-Regular.woff2") format('woff2');
     style: normal;
 }
 
@@ -28,7 +28,7 @@
     font-family: Lato-Bold;
     font-display: swap;
     font-weight: 700;
-    src: url("/src/fonts/Lato-Bold.woff2") format('woff2');
+    src: url("fonts/Lato-Bold.woff2") format('woff2');
     style: normal;
 }
 
@@ -37,7 +37,7 @@
     font-family: Lato-Black;
     font-display: swap;
     font-weight: 900;
-    src: url("/src/fonts/Lato-Black.woff2") format('woff2');
+    src: url("fonts/Lato-Black.woff2") format('woff2');
     style: normal;
 }
 
@@ -46,7 +46,7 @@ title {
 }
 
 .header {
-    background-image: url("/src/img/Rectangle 3.jpg");
+    background-image: url("/img/Rectangle 3.jpg");
     width: 1440px;
     height: 782px;
 }
@@ -283,7 +283,7 @@ a[href^="#"]:hover {
     font-size: 40px;
 }
 
-[title*='tt'] {
+[title*='bu'] {
     font-size: large;
 }
 
