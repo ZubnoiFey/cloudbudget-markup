@@ -1,9 +1,11 @@
+/*название одно, меняться будет только от font-weight*/
+
 @font-face {
     font-family: Lato-Thin;
     font-display: swap;
     font-weight: 300;
     src: url("fonts/Lato-Thin.woff2") format('woff2');
-    style: normal;
+    /*style: normal;*/
 }
 
 @font-face {
@@ -11,7 +13,7 @@
     font-display: swap;
     font-weight: 400;
     src: url("fonts/Lato-Light.woff2") format('woff2');
-    style: normal;
+    /*style: normal;*/
 }
 
 
@@ -20,7 +22,7 @@
     font-display: swap;
     font-weight: 500;
     src: url("fonts/Lato-Regular.woff2") format('woff2');
-    style: normal;
+    /*style: normal;*/
 }
 
 
@@ -29,7 +31,7 @@
     font-display: swap;
     font-weight: 700;
     src: url("fonts/Lato-Bold.woff2") format('woff2');
-    style: normal;
+    /*style: normal;*/
 }
 
 
@@ -38,11 +40,11 @@
     font-display: swap;
     font-weight: 900;
     src: url("fonts/Lato-Black.woff2") format('woff2');
-    style: normal;
+    /*style: normal;*/
 }
 
-title {
-
+body {
+    /*font-family: ;*/
 }
 
 .header {
@@ -51,7 +53,7 @@ title {
     height: 782px;
 }
 
-header > nav > ul>li>a {
+header > nav a {
     line-height: 1.2;
     font-family: Lato-Regular, sans-serif;
     font-size: 14px;
@@ -72,12 +74,13 @@ header > nav > ul > li:first-of-type {
 }
 
 header > nav > ul > li:last-of-type {
-    color: aquamarine;
+    /*color: aquamarine;*/
 }
 
 h1 {
     font-family: Lato-Black, sans-serif;
     font-size: 72px;
+    /*700*/
     font-weight: 900;
     color: white;
     text-align: center;
@@ -86,13 +89,15 @@ h1 {
 h2 {
     font-family: Lato-Bold, sans-serif;
     font-size: 36px;
+    /*700*/
     font-weight: 900;
     line-height: 1.2;
 }
 
-p{
+p {
     font-family: Lato-Light, sans-serif;
     font-size: 16px;
+/*    line height*/
 }
 
 body {
@@ -101,24 +106,23 @@ body {
 
 
 header > p {
-font-size: 24px;
+    font-size: 24px;
     line-height: 1.5;
     font-family: Lato-Regular, sans-serif;
     color: #FFFFFF;
-text-align: center;
+    text-align: center;
 }
 
 .header button:first-of-type {
-font-family: Lato-Regular, sans-serif;
+    font-family: Lato-Regular, sans-serif;
     font-size: 14px;
     line-height: 1.2;
     color: #ED4C5C;
     background-color: black;
-   border-width: 1px;
-    width:160px;
+    border-width: 1px;
+    width: 160px;
     height: 60px;
-    border-radius: 6px;
-;
+    border-radius: 6px;;
 }
 
 .header button:last-of-type {
@@ -127,7 +131,7 @@ font-family: Lato-Regular, sans-serif;
     line-height: 1.2;
     color: #ED4C5C;
     background-color: white;
-    width:160px;
+    width: 160px;
     height: 60px;
     border-radius: 6px;
 }
@@ -135,6 +139,7 @@ font-family: Lato-Regular, sans-serif;
 
 .easy-use p {
     font-family: Lato-Light, sans-serif;
+    /*400 is default*/
     font-weight: 400;
     font-size: 16px;
     line-height: 1.4;
@@ -145,33 +150,33 @@ font-family: Lato-Regular, sans-serif;
 }
 
 .features {
-    background-color: #FAFAFA;
-;
+    background-color: #FAFAFA;;
 }
 
-.features ul>li>h3 {
+.features ul > li > h3 {
     font-family: Lato-Bold, sans-serif;
     font-size: 18px;
+/*    line height*/
 }
 
-.features ul>li>a {
+.features ul > li > a {
     color: #ED4C5C;
     font-family: Lato-Bold, sans-serif;
 }
 
-.features ul>li>p {
+.features ul > li > p {
     font-family: Lato-Regular, sans-serif;
     font-size: 14px;
     line-height: 1.5;
 }
 
-.technology ul>li>h3 {
+.technology ul > li > h3 {
     font-family: Lato-Bold, sans-serif;
     font-size: 18px;
     line-height: 1.2;
 }
 
-.technology ul>li>p {
+.technology ul > li > p {
     font-family: Lato-Regular, sans-serif;
     font-size: 14px;
     line-height: 1.2;
@@ -186,7 +191,7 @@ font-family: Lato-Regular, sans-serif;
     font-size: 36px;
     font-weight: 900;
     line-height: 1.2;
-color: white;
+    color: white;
 }
 
 .map-navigation p {
@@ -201,6 +206,7 @@ color: white;
 }
 
 footer > ul > li > h2 {
+    /*not exist color*/
     color: cadetblue;
 }
 
@@ -236,7 +242,7 @@ footer > ul > li > h2 {
     height: 65px;
     border-radius: 6px;
     background-color: white;
-    color:  #13274380;
+    color: #13274380;
 
 }
 
@@ -248,7 +254,7 @@ footer > ul > li > h2 {
     border-radius: 6px;
 }
 
-footer ul>li>h2 {
+footer ul > li > h2 {
     font-family: Lato-Bold, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -257,15 +263,13 @@ footer ul>li>h2 {
 }
 
 
-footer ul>li>p,a{
+footer ul > li > p, a {
     font-family: Lato-Light, sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.5;
     color: black;
 }
-
-
 
 
 /* Selectors*/
