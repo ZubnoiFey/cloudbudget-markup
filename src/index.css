@@ -44,7 +44,7 @@
 }
 
 body {
-    /*font-family: ;*/
+    font-family: Lato, sans-serif;
 }
 
 .header {
@@ -100,9 +100,7 @@ p {
 line-height: 1.4;
 }
 
-body {
-    font-family: Lato, sans-serif;
-}
+
 
 
 header > p {
