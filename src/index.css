@@ -1,7 +1,7 @@
 /*название одно, меняться будет только от font-weight*/
 
 @font-face {
-    font-family: Lato-Thin;
+    font-family: Lato;
     font-display: swap;
     font-weight: 300;
     src: url("fonts/Lato-Thin.woff2") format('woff2');
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: Lato-Light;
+    font-family: Lato;
     font-display: swap;
     font-weight: 400;
     src: url("fonts/Lato-Light.woff2") format('woff2');
@@ -18,7 +18,7 @@
 
 
 @font-face {
-    font-family: Lato-Regular;
+    font-family: Lato;
     font-display: swap;
     font-weight: 500;
     src: url("fonts/Lato-Regular.woff2") format('woff2');
@@ -27,7 +27,7 @@
 
 
 @font-face {
-    font-family: Lato-Bold;
+    font-family: Lato;
     font-display: swap;
     font-weight: 700;
     src: url("fonts/Lato-Bold.woff2") format('woff2');
@@ -36,7 +36,7 @@
 
 
 @font-face {
-    font-family: Lato-Black;
+    font-family: Lato;
     font-display: swap;
     font-weight: 900;
     src: url("fonts/Lato-Black.woff2") format('woff2');
