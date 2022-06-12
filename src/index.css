@@ -106,7 +106,7 @@ line-height: 1.4;
 
 
 
-header > p {
+.easy-use p:first-of-type {
     font-size: 24px;
     line-height: 1.5;
     font-family: Lato-Regular, sans-serif;
@@ -146,6 +146,14 @@ header > p {
     line-height: 1.4;
 }
 
+.easy-use p:first-of-type {
+    font-family: Lato-Light, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+}
+
 .easy-use img {
     width: 540px;
 }
@@ -153,6 +161,7 @@ header > p {
 .features {
     background-color: #FAFAFA;;
 }
+
 
 .features ul > li > h3 {
     font-family: Lato-Bold, sans-serif;
@@ -195,7 +204,7 @@ header > p {
 .map-navigation h2 {
     font-family: Lato-Bold, sans-serif;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 1.2;
     color: white;
 }
@@ -208,7 +217,9 @@ header > p {
 }
 
 .contact form > label {
-    font-weight: lighter;
+    font-family: Lato-Light, sans-serif;
+    font-size: 16px;
+line-height: 1.2;
 }
 
 footer > ul > li > h2 {
