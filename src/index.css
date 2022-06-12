@@ -51,6 +51,9 @@ body {
     background-image: url("img/Rectangle 3.jpg");
     width: 1440px;
     height: 782px;
+
+  /*color: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);*/
+
 }
 
 header > nav a {
@@ -167,6 +170,10 @@ header > p {
     font-family: Lato-Regular, sans-serif;
     font-size: 14px;
     line-height: 1.5;
+}
+
+.features ul>li>img {
+    width: 350px;
 }
 
 .technology ul > li > h3 {
