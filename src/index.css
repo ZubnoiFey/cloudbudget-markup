@@ -81,7 +81,7 @@ h1 {
     font-family: Lato-Black, sans-serif;
     font-size: 72px;
     /*700*/
-    font-weight: 900;
+    font-weight: 700;
     color: white;
     text-align: center;
 }
@@ -90,14 +90,14 @@ h2 {
     font-family: Lato-Bold, sans-serif;
     font-size: 36px;
     /*700*/
-    font-weight: 900;
+    font-weight: 700;
     line-height: 1.2;
 }
 
 p {
     font-family: Lato-Light, sans-serif;
     font-size: 16px;
-/*    line height*/
+line-height: 1.4;
 }
 
 body {
@@ -156,6 +156,7 @@ header > p {
 .features ul > li > h3 {
     font-family: Lato-Bold, sans-serif;
     font-size: 18px;
+    line-height: 1.2;
 /*    line height*/
 }
 
@@ -207,7 +208,8 @@ header > p {
 
 footer > ul > li > h2 {
     /*not exist color*/
-    color: cadetblue;
+    color:  #101010;
+;
 }
 
 .contact h2 {
