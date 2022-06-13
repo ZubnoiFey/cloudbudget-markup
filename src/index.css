@@ -290,7 +290,8 @@ footer ul > li > p, a {
 }
 
 
-/* Selectors*/
+/*
+ Selectors
 
 header nav > ul > li:first-letter {
     font-size: 30px;
@@ -313,3 +314,5 @@ a[href^="#"]:hover {
 [href$='more'] {
     color: darkorchid;
 }
+*/
+
