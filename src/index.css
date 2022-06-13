@@ -61,6 +61,7 @@ header > nav a {
     font-family: Lato-Regular, sans-serif;
     font-size: 14px;
     color: white;
+    font-weight: 700;
 }
 
 header > button {
@@ -70,14 +71,15 @@ header > button {
     width: 100px;
     height: 40px;
     color: white;
+    text-transform: uppercase;
 }
 
 header > nav > ul > li:first-of-type {
     font-size: 20px;
 }
 
-header > nav > ul > li:last-of-type {
-    /*color: aquamarine;*/
+header > nav > ul > li{
+    text-transform: uppercase;
 }
 
 h1 {
@@ -159,7 +161,8 @@ line-height: 1.4;
 }
 
 .features {
-    background-color: #FAFAFA;;
+    background-color: #FAFAFA;
+    text-align: center;
 }
 
 
@@ -185,13 +188,17 @@ line-height: 1.4;
     width: 350px;
 }
 
-.technology ul > li > h3 {
+.technology {
+    text-align: center;
+}
+
+.technology ol > li > h3 {
     font-family: Lato-Bold, sans-serif;
     font-size: 18px;
     line-height: 1.2;
 }
 
-.technology ul > li > p {
+.technology ol > li > p {
     font-family: Lato-Regular, sans-serif;
     font-size: 14px;
     line-height: 1.2;
@@ -270,6 +277,7 @@ footer > ul > li > h2 {
     width: 160px;
     height: 65px;
     border-radius: 6px;
+    text-transform: uppercase;
 }
 
 footer ul > li > h2 {
