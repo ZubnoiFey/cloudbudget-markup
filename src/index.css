@@ -188,10 +188,15 @@ header>nav> button{
 .easy-to-use {
     display: flex;
     flex-direction:column;
+    margin-bottom: 63px;
 }
 
 .easy-to-use h2 {
     margin-bottom: 56px;
+}
+
+.easy-to-use p {
+    padding-bottom: 165px;
 }
 
 .easy-to-use-img {
@@ -202,9 +207,24 @@ header>nav> button{
 .features {
     background-color: #FAFAFA;
     text-align: center;
+    padding-bottom: 190px;
+
 }
 
+.features div {
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.features ul {
+    padding-top: 158px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.features ul>li {
+    gap: 30px;
+}
 .features ul > li > h3 {
     font-family: Lato-Bold, sans-serif;
     font-size: 18px;
@@ -224,11 +244,24 @@ header>nav> button{
 }
 
 .features ul>li>img {
+    display: flex;
     width: 350px;
+margin-right: 30px;
 }
+
 
 .technology {
     text-align: center;
+    height: 500px;
+}
+
+.technology ol {
+    display: flex;
+
+}
+
+.technology h2 {
+    margin: 60px 60px;
 }
 
 .technology ol > li > h3 {
@@ -247,12 +280,14 @@ header>nav> button{
     background-color: #ED4C5C;
 }
 
+
 .map-navigation h2 {
     font-family: Lato-Bold, sans-serif;
     font-size: 36px;
     font-weight: 600;
     line-height: 1.2;
     color: white;
+
 }
 
 .map-navigation p {
@@ -262,22 +297,36 @@ header>nav> button{
     line-height: 1.2;
 }
 
+.contact div:first-of-type {
+    display: flex;
+    width: 500px;
+    float:left;
+    margin-right: 120px;
+    margin-top: 125px;
+}
+
+.contact div:last-of-type {
+    display: flex;
+    width: 500px;
+    margin-right: 120px;
+    margin-top: 125px;
+    float:right;
+}
+
+
+
 .contact form > label {
     font-family: Lato-Light, sans-serif;
     font-size: 16px;
 line-height: 1.2;
 }
 
-footer > ul > li > h2 {
-    /*not exist color*/
-    color:  #101010;
-;
-}
+
 
 .contact h2 {
     font-family: Lato-Bold, sans-serif;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 1.2;
 }
 
@@ -319,6 +368,12 @@ footer > ul > li > h2 {
     text-transform: uppercase;
 }
 
+
+
+footer > ul > li > h2 {
+    color:  #101010;
+}
+
 footer ul > li > h2 {
     font-family: Lato-Bold, sans-serif;
     font-size: 18px;
@@ -331,10 +386,12 @@ footer ul > li > h2 {
 footer ul > li > p, a {
     font-family: Lato-Light, sans-serif;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.5;
     color: black;
 }
+
+
 
 
 /*
