@@ -52,8 +52,9 @@ body {
     width: 1440px;
     height: 782px;
 
-  /*color: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);*/
+    /*color: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);*/
 }
+
 header p {
     font-family: Lato-Bold, sans-serif;
     font-size: 18px;
@@ -81,7 +82,7 @@ header > nav > ul > li:first-of-type {
     font-size: 20px;
 }
 
-header > nav > ul{
+header > nav > ul {
     text-transform: uppercase;
     display: flex;
     flex-direction: row;
@@ -97,13 +98,12 @@ header img {
 }
 
 
-
 h1 {
     font-family: Lato-Black, sans-serif;
     font-size: 72px;
     /*700*/
     font-weight: 700;
-    color: white;
+    /*color: white;*/
     text-align: center;
 }
 
@@ -118,13 +118,11 @@ h2 {
 p {
     font-family: Lato-Light, sans-serif;
     font-size: 16px;
-line-height: 1.4;
+    line-height: 1.4;
 }
 
 
-
-
-header>nav> button{
+header > nav > button {
     display: flex;
     flex-direction: row;
     font-family: Lato-Regular, sans-serif;
@@ -150,8 +148,10 @@ header>nav> button{
     border-radius: 6px;
 }
 
+.cloudbudget-hero div {
+    display: flex;
 
-
+}
 
 .cloudbudget-hero p:first-of-type {
     font-size: 24px;
@@ -161,15 +161,8 @@ header>nav> button{
     text-align: center;
 }
 
-.cloudbudget-hero p {
-    font-family: Lato-Light, sans-serif;
-    /*400 is default*/
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.4;
-}
 
-.cloudbudget-hero p:first-of-type {
+.cloudbudget-hero p {
     font-family: Lato-Light, sans-serif;
     font-weight: 600;
     font-size: 24px;
@@ -187,7 +180,7 @@ header>nav> button{
 
 .easy-to-use {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     margin-bottom: 63px;
 }
 
@@ -196,12 +189,15 @@ header>nav> button{
 }
 
 .easy-to-use p {
+    display: flex;
     padding-bottom: 165px;
 }
 
 .easy-to-use-img {
-  float: right;
+    display: flex;
+    float: right;
     margin-bottom: 63px;
+    padding-bottom: 63px;
 }
 
 .features {
@@ -211,7 +207,7 @@ header>nav> button{
 
 }
 
-.features div>ul {
+.features div > ul {
     margin-right: auto;
     margin-left: auto;
 }
@@ -224,14 +220,15 @@ header>nav> button{
     justify-content: space-between;
 }
 
-.features ul>li {
+.features ul > li {
     gap: 30px;
 }
+
 .features ul > li > h3 {
     font-family: Lato-Bold, sans-serif;
     font-size: 18px;
     line-height: 1.2;
-/*    line height*/
+    /*    line height*/
 }
 
 .features ul > li > a {
@@ -245,10 +242,10 @@ header>nav> button{
     line-height: 1.5;
 }
 
-.features ul>li>img {
+.features ul > li > img {
     display: flex;
     width: 350px;
-margin-right: 30px;
+    margin-right: 30px;
 }
 
 
@@ -302,7 +299,7 @@ margin-right: 30px;
 .contact div:first-of-type {
     display: flex;
     width: 500px;
-    float:left;
+    float: left;
     margin-right: 120px;
     margin-top: 125px;
 }
@@ -312,17 +309,15 @@ margin-right: 30px;
     width: 500px;
     margin-right: 120px;
     margin-top: 125px;
-    float:right;
+    float: right;
 }
-
 
 
 .contact form > label {
     font-family: Lato-Light, sans-serif;
     font-size: 16px;
-line-height: 1.2;
+    line-height: 1.2;
 }
-
 
 
 .contact h2 {
@@ -376,13 +371,13 @@ footer ul {
 
 }
 
-footer div>ul>li {
-flex-direction: column;
-gap: 30px
+footer div > ul > li {
+    flex-direction: column;
+    gap: 30px
 }
 
 footer > ul > li > h2 {
-    color:  #101010;
+    color: #101010;
 }
 
 footer ul > li > h2 {
@@ -401,8 +396,6 @@ footer ul > li > p, a {
     line-height: 1.5;
     color: black;
 }
-
-
 
 
 /*
