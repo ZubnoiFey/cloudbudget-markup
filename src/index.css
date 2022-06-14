@@ -211,15 +211,17 @@ header>nav> button{
 
 }
 
-.features div {
+.features div>ul {
     margin-right: auto;
     margin-left: auto;
 }
 
 .features ul {
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 158px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .features ul>li {
@@ -368,7 +370,16 @@ line-height: 1.2;
     text-transform: uppercase;
 }
 
+footer ul {
+    display: flex;
+    justify-content: space-between;
 
+}
+
+footer div>ul>li {
+flex-direction: column;
+gap: 30px
+}
 
 footer > ul > li > h2 {
     color:  #101010;
