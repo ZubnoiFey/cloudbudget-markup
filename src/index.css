@@ -124,15 +124,9 @@ line-height: 1.4;
 
 
 
-.easy-use p:first-of-type {
-    font-size: 24px;
-    line-height: 1.5;
-    font-family: Lato-Regular, sans-serif;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.header button:first-of-type {
+header>nav> button{
+    display: flex;
+    flex-direction: row;
     font-family: Lato-Regular, sans-serif;
     font-size: 14px;
     line-height: 1.2;
@@ -142,6 +136,7 @@ line-height: 1.4;
     width: 160px;
     height: 60px;
     border-radius: 6px;;
+    text-align: center;
 }
 
 .header button:last-of-type {
@@ -156,7 +151,17 @@ line-height: 1.4;
 }
 
 
-.easy-use p {
+
+
+.cloudbudget-hero p:first-of-type {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: Lato-Regular, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cloudbudget-hero p {
     font-family: Lato-Light, sans-serif;
     /*400 is default*/
     font-weight: 400;
@@ -164,7 +169,7 @@ line-height: 1.4;
     line-height: 1.4;
 }
 
-.easy-use p:first-of-type {
+.cloudbudget-hero p:first-of-type {
     font-family: Lato-Light, sans-serif;
     font-weight: 600;
     font-size: 24px;
@@ -172,8 +177,26 @@ line-height: 1.4;
     text-align: center;
 }
 
-.easy-use img {
+.cloudbudget-hero img {
     width: 540px;
+}
+
+.container {
+    width: 1440px;
+}
+
+.easy-to-use {
+    display: flex;
+    flex-direction:column;
+}
+
+.easy-to-use h2 {
+    margin-bottom: 56px;
+}
+
+.easy-to-use-img {
+  float: right;
+    margin-bottom: 63px;
 }
 
 .features {
