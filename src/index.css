@@ -43,6 +43,7 @@
     /*style: normal;*/
 }
 
+
 body {
     font-family: Lato, sans-serif;
 }
@@ -69,7 +70,7 @@ button {
     min-width: 160px;
 }
 
-header > nav a {
+header > nav >ul>li>a {
     line-height: 1.2;
     font-family: Lato-Regular, sans-serif;
     font-size: 14px;
@@ -77,10 +78,6 @@ header > nav a {
     font-weight: 700;
 }
 
-
-header > nav > ul > li:first-of-type {
-    font-size: 20px;
-}
 
 header > nav > ul {
     text-transform: uppercase;
@@ -110,8 +107,7 @@ h1 {
 h2 {
     font-family: Lato-Bold, sans-serif;
     font-size: 36px;
-    /*700*/
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.2;
 }
 
@@ -119,6 +115,13 @@ p {
     font-family: Lato-Light, sans-serif;
     font-size: 16px;
     line-height: 1.4;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
 }
 
 
@@ -159,6 +162,7 @@ header > nav > button {
     font-family: Lato-Regular, sans-serif;
     color: #FFFFFF;
     text-align: center;
+    font-weight:600 ;
 }
 
 
@@ -226,9 +230,7 @@ header > nav > button {
 
 .features ul > li > h3 {
     font-family: Lato-Bold, sans-serif;
-    font-size: 18px;
     line-height: 1.2;
-    /*    line height*/
 }
 
 .features ul > li > a {
@@ -294,6 +296,7 @@ header > nav > button {
     font-weight: 400;
     color: white;
     line-height: 1.2;
+    font-size: 16px;
 }
 
 .contact div:first-of-type {
