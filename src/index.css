@@ -161,7 +161,6 @@ h3 {
 
 .easy-to-use-text {
     max-width: 450px;
-
 }
 
 .easy-to-use-img {
@@ -261,6 +260,76 @@ padding-top: 187px;
 justify-content: space-between;
 }
 
+.technology ol {
+    padding-bottom: 104px;
+}
+
+.map-navigation {
+    display: flex;
+    background-color: #ED4C5C;
+    min-height: 500px;
+}
+
+
+.map-navigation h2 {
+color:white;
+    padding-bottom: 30px;
+}
+
+.map-navigation p {
+    color: white;
+    padding-bottom: 37px;
+}
+
+.navigation-text {
+    display: flex;
+    max-width:450px ;
+    margin-left: 160px;
+    flex-direction: column;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.map-wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    max-width: 630px;
+    border: 10px solid #ED4C5C;
+    border-radius: 10%;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+
+.contact-wrapper {
+    display: flex;
+    max-width:450px ;
+    margin-left: 170px;
+}
+
+.contact-wrapper h2 {
+    padding-top: 75px;
+    margin-right: 125px;
+   padding-bottom: 36px;
+}
+
+.contact-wrapper p {
+    display: flex;
+    flex-direction: row;
+    max-width: 450px;
+    margin-right: 125px;
+}
+
+.form-wrapper {
+    display: flex;
+    max-width: 540px;
+}
+
+
+form input {
+    height: 65px;
+}
 /*
  Selectors
 
