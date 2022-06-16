@@ -257,8 +257,8 @@ padding-top: 187px;
 }
 
 .technology-li-wrapper{
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
+justify-content: space-between;
 }
 
 /*
