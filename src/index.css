@@ -116,7 +116,7 @@ h1 {
 }
 
 h2 {
- font-weight: 600;
+    font-weight: 600;
     font-size: 36px;
     line-height: 1.2;
 }
@@ -165,7 +165,7 @@ h3 {
 
 .easy-to-use-img {
     display: flex;
-   padding-left:125px;
+    padding-left: 125px;
 }
 
 .easy-to-use-text {
@@ -176,7 +176,7 @@ h3 {
     padding-bottom: 56px;
 }
 
-.easy-to-use div:last-of-type{
+.easy-to-use div:last-of-type {
     padding-bottom: 95px;
 }
 
@@ -199,7 +199,7 @@ h3 {
 
 .features h3 {
     font-size: 18px;
-    font-weight:700;
+    font-weight: 700;
     line-height: 1.2;
     margin-bottom: 20px;
     text-align: center;
@@ -212,14 +212,15 @@ h3 {
     padding-bottom: 20px;
     text-align: center;
 }
+
 .features-wrapper {
     margin-left: 165px;
     margin-right: 165px;
     padding-bottom: 15px;
 }
 
-.features-text-wrapper
-{   max-width: 293px;
+.features-text-wrapper {
+    max-width: 293px;
     background-color: white;
     margin-top: -50px;
     margin-right: 87px;
@@ -231,14 +232,18 @@ h3 {
 }
 
 
-.features-text-wrapper a {
+.features-ref {
     text-align: center;
     font-size: 12px;
     font-weight: 700;
     line-height: 1.5;
-margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 90px;
+    margin-right: 60px;
+    display: flex;
+    color: #ED4C5C;
+
 }
+
 
 .fourteenpx {
     font-size: 14px;
@@ -246,18 +251,21 @@ margin-right: 20px;
     line-height: 1.3;
 }
 
-.technology h2
-{
+.technology h2 {
     display: flex;
     align-items: center;
     margin-left: 650px;
     margin-right: auto;
-padding-top: 187px;
+    padding-top: 187px;
 }
 
-.technology-li-wrapper{
-    display: flex;
-justify-content: space-between;
+.technology-li-wrapper {
+    display: inline-block;
+    max-width: 255px;
+}
+
+.technology-li-wrapper img {
+    padding-bottom: 50px;
 }
 
 .technology ol {
@@ -272,7 +280,7 @@ justify-content: space-between;
 
 
 .map-navigation h2 {
-color:white;
+    color: white;
     padding-bottom: 30px;
 }
 
@@ -283,7 +291,7 @@ color:white;
 
 .navigation-text {
     display: flex;
-    max-width:450px ;
+    max-width: 450px;
     margin-left: 160px;
     flex-direction: column;
     padding-bottom: 120px;
@@ -304,14 +312,14 @@ color:white;
 
 .contact-wrapper {
     display: flex;
-    max-width:450px ;
+    max-width: 450px;
     margin-left: 170px;
 }
 
 .contact-wrapper h2 {
     padding-top: 75px;
     margin-right: 125px;
-   padding-bottom: 36px;
+    padding-bottom: 36px;
 }
 
 .contact-wrapper p {
@@ -330,6 +338,7 @@ color:white;
 form input {
     height: 65px;
 }
+
 /*
  Selectors
 
