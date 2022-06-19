@@ -70,6 +70,10 @@ header p {
     text-transform: capitalize;
 }
 
+.cloudbudget-hero {
+    background-image: url("../src/img/Rectangle 3.jpg");
+}
+
 nav {
     display: inline-flex;
     flex-direction: row;
@@ -252,6 +256,7 @@ h3 {
 }
 
 ol{
+
     display:flex;
     justify-content: space-between;
 }
