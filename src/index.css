@@ -165,6 +165,8 @@ h3 {
 
 .easy-to-use-text {
     max-width: 450px;
+    padding-top: 40px;
+
 }
 
 .easy-to-use-img {
@@ -172,13 +174,14 @@ h3 {
     padding-left: 125px;
 }
 
-.easy-to-use-text {
-    padding-top: 40px;
-}
-
 .easy-to-use-text h2 {
     padding-bottom: 56px;
+    text-align: left;
 }
+.easy-to-use-text p {
+    text-align: left;
+}
+
 
 .easy-to-use div:last-of-type {
     padding-bottom: 95px;
@@ -256,9 +259,9 @@ h3 {
 }
 
 ol{
-
     display:flex;
     justify-content: space-between;
+    padding-bottom: 104px;
 }
 
 .technology h2 {
@@ -278,11 +281,14 @@ ol{
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-.technology ol {
-    padding-bottom: 104px;
+.technology-li-wrapper h3,p {
+    text-align: center;
 }
 
 .map-navigation {
@@ -299,6 +305,7 @@ ol{
 }
 
 .map-navigation p {
+    text-align: start;
     color: white;
     padding-bottom: 37px;
 }
@@ -333,12 +340,14 @@ ol{
 .contact-wrapper h2 {
     margin-right: 125px;
     padding-bottom: 36px;
+    text-align: left;
 }
 
 .contact-wrapper p {
     display: flex;
     max-width: 450px;
     margin-right: 125px;
+    text-align: left;
 }
 
 .form-wrapper {
@@ -412,6 +421,7 @@ footer h2 {
     font-weight: 700;
     line-height: 1.2;
     padding-bottom: 33px;
+    text-align: left;
 }
 
 footer p {
@@ -419,6 +429,7 @@ footer p {
     font-size: 14px;
     line-height: 1.5;
     color: black;
+    text-align: left;
 }
 
 
