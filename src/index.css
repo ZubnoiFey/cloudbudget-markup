@@ -117,6 +117,7 @@ h1 {
     line-height: 1.2;
     text-transform: uppercase;
     align-items: center;
+    color: white;
 }
 
 h2 {
@@ -140,6 +141,7 @@ h3 {
     padding-top: 40px;
     margin-left: 450px;
     margin-right: 450px;
+    color:white;
 }
 
 .cloudbudget-hero button {
@@ -332,9 +334,9 @@ ol{
 
 
 .contact-wrapper {
-    display: flex;
     margin-left: 170px;
     padding-top: 130px;
+    display: flex;
 }
 
 .contact-wrapper h2 {
@@ -352,6 +354,7 @@ ol{
 
 .form-wrapper {
     display: flex;
+    justify-content: space-between;
     max-width: 540px;
 }
 
