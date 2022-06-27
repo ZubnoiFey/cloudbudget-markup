@@ -213,10 +213,12 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .features-wrapper > li {
     align-items: center;
+    background-color: #FFFFFF;
 }
 
 
@@ -229,6 +231,7 @@ h2 {
     margin-right: auto;
     padding-bottom: 25px;
     padding-top: 33px;
+
 }
 
 .features-text-wrapper h3 {
@@ -241,6 +244,7 @@ h2 {
 
 .features-wrapper p {
     margin-bottom: 15px;
+
 }
 
 .features-wrapper a {
@@ -250,6 +254,7 @@ h2 {
     font-size: 12px;
     font-weight: 700;
     line-height: 1.5;
+
 }
 
 .technology {
