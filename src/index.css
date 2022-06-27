@@ -359,17 +359,20 @@ h2 {
     text-align: justify;
 }
 
-.form-wrapper {
+.form-wrapper form {
     width: 550px;
     align-self: center;
-    display: flex;
-    flex-wrap: wrap;
 
+}
+
+form>div {
+    display: flex;
+gap: 20px;
 }
 
 
 #first-name {
-    width: 260px;
+    width: 255px;
     padding-top: 23px;
     padding-left: 25px;
     padding-bottom: 23px;
@@ -378,7 +381,7 @@ h2 {
 }
 
 #last-name {
-    width: 260px;
+    width: 255px;
     padding-top: 23px;
     padding-left: 25px;
     padding-bottom: 23px;
@@ -388,7 +391,7 @@ h2 {
 
 
 #phone-number {
-    width: 540px;
+    width: 530px;
     padding-top: 23px;
     padding-left: 25px;
     padding-bottom: 23px;
@@ -397,7 +400,7 @@ h2 {
 }
 
 #select-service {
-    width: 540px;
+    width: 530px;
     margin-bottom: 30px;
     padding-top: 23px;
     padding-left: 25px;
