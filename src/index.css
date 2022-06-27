@@ -219,8 +219,13 @@ h2 {
 .features-wrapper > li {
     align-items: center;
     background-color: #FFFFFF;
+    width: 350px;
 }
 
+
+.features-wrapper > li img {
+    width: 100%;
+}
 
 .features-text-wrapper {
     text-align: center;
