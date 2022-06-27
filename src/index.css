@@ -223,7 +223,7 @@ h2 {
 }
 
 
-.features-wrapper > li img {
+.features-wrapper ul > li img {
     width: 100%;
 }
 
