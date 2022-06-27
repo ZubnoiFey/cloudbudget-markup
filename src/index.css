@@ -368,6 +368,7 @@ h2 {
 form>div {
     display: flex;
 gap: 20px;
+    flex-wrap: wrap;
 }
 
 
