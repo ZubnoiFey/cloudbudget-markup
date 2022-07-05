@@ -298,3 +298,42 @@ h1 {
     font-size: 14px;
     line-height: 1.2;
 }
+
+.stay-focused {
+    background-color: #ED4C5C;
+}
+
+.stay-focused >div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.stay-focused-text-wrapper {
+    width: 450px;
+}
+
+.stay-focused h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+
+.stay-focused p {
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.stay-focused iframe {
+   padding: 40px;
+    border: 1px solid #ED4C5C;
+    border-radius: 55px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
