@@ -216,3 +216,35 @@ font-size: 16px;
     display: flex;
     gap: 30px;
 }
+
+.features-cards-text {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 35px;
+    width: 295px;
+    text-align: center;
+    transform: translate(25px, -100px);
+}
+
+.features-cards-text h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.features-cards-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.features-cards-text  a {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    color:#ED4C5C;
+    margin-bottom: 25px;
+}
