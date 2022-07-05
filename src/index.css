@@ -206,6 +206,7 @@ h1 {
 .features {
     padding-top: 63px;
     padding-bottom: 60px;
+    background-color: #FAFAFA;
 }
 
 .features h2 {
@@ -310,8 +311,7 @@ h1 {
 .stay-focused >div {
     display: flex;
     align-items: center;
-    gap: 80px;
-
+    justify-content: space-between;
 }
 
 .stay-focused-text-wrapper {
@@ -420,4 +420,42 @@ h1 {
     font-weight: 600;
     line-height: 1.2;
     text-transform: uppercase;
+}
+
+footer {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: #FAFAFA;
+}
+
+.bottom-menu > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 35px;
+}
+
+.address-wrapper {
+    width: 250px;
+}
+
+.bottom-menu p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.bottom-menu a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+}
+.address-wrapper p:last-of-type {
+    margin-top: 130px;
 }
