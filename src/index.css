@@ -205,8 +205,8 @@ h1 {
 }
 
 .features {
-    padding-top: 63px;
-    padding-bottom: 60px;
+    /*padding-top: 63px;*/
+    /*padding-bottom: 60px;*/
     background-color: #FAFAFA;
 }
 
@@ -257,6 +257,7 @@ h1 {
 
 
 .technology {
+    padding-top: 60px;
     padding-bottom: 100px;
 }
 
