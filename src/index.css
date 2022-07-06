@@ -61,7 +61,8 @@ body {
 }
 
 .hero-wrapper {
-    background: url("../src/img/Rectangle3.jpg");
+    background-image: url("../src/img/Rectangle3.jpg");
+    background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
     width: 1110px;
     margin-right: auto;
     margin-left: auto;
