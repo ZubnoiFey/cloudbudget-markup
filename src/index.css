@@ -61,12 +61,13 @@ body {
 }
 
 .hero-wrapper {
-    background-image:linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url("../src/img/Rectangle3.jpg");
-    width: 1110px;
-    margin-right: auto;
-    margin-left: auto;
+    /*background-image:linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);*/
     padding-top: 60px;
     padding-bottom: 50px;
+}
+
+.hero-wrapper > div {
+    background-image:linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%),url("../src/img/Rectangle3.jpg")
 }
 
 header > div > a {
@@ -337,7 +338,10 @@ h1 {
 }
 
 .stay-focused iframe {
-   padding: 40px;
+   padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
     border: 1px solid #ED4C5C;
     border-radius: 55px;
     margin-top: 30px;
