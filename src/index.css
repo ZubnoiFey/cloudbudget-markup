@@ -205,6 +205,10 @@ h1 {
     line-height: 1.4;
 }
 
+.play-button {
+    transform: translate(330px, -120px);
+}
+
 .features {
     padding-top: 63px;
     padding-bottom: 60px;
