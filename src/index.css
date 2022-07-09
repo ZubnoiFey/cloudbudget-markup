@@ -1,4 +1,4 @@
-/*название одно, меняться будет только от font-weight*/
+
 
 @font-face {
     font-family: Lato;
@@ -61,14 +61,12 @@ body {
 }
 
 .hero-wrapper {
-    /*background-image:linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);*/
+    background-image:linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%),url("../src/img/Rectangle3.jpg");
     padding-top: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 180px;
+    background-size: cover;
 }
 
-.hero-wrapper > div {
-    background-image:linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%),url("../src/img/Rectangle3.jpg")
-}
 
 header > div > a {
     display: flex;
@@ -235,7 +233,9 @@ h1 {
     padding: 35px;
     width: 295px;
     text-align: center;
-    transform: translate(25px, -100px);
+    transform: translateY(-100px);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .features-cards-text h3 {
@@ -363,6 +363,7 @@ h1 {
     gap: 125px;
 }
 
+
 .contact-form-text {
     width: 450px;
 }
@@ -379,11 +380,19 @@ h1 {
     font-size: 16px;
     line-height: 1.4;
 }
+
+
 .form-wrapper {
-    display: flex;
-    width: 540px;
-    gap: 30px;
+    width: 550px;
 }
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
 
 
 .form-wrapper input {
@@ -392,16 +401,26 @@ h1 {
     line-height: 1.2;
     color: rgba(19, 39, 67, 0.5);
     padding: 20px;
-    margin: 20px;
     border-radius: 5px;
 }
 
-#first-name {
-   width: 260px;
+.name {
+    width: 48%;
+}
+.phone-number  {
+    width: 100%
+}
+
+#first-name, #last-name {
+    width: 100%;
 }
 
 #phone-number {
-    width: 520px;
+    width: 100%
+}
+
+.select-option {
+    width: 100%;
 }
 
 #select-option {
@@ -410,14 +429,12 @@ h1 {
     line-height: 1.2;
     color: rgba(19, 39, 67, 0.5);
     padding: 20px;
-    margin: 20px;
     border-radius: 5px;
-    width: 520px;
     background-color: #FFFFFF;
+    width: 100%;
 }
 
 .form-wrapper button {
-    margin: 20px;
     background: #ED4C5C;
     border: 1.5px solid #ED4C5C;
     border-radius: 6px;
