@@ -1,0 +1,21 @@
+.easy-to-use {
+    padding-top: 90px;
+    padding-bottom: 95px;
+}
+
+.easy-to-use > div {
+    display: flex;
+    gap: 125px;
+}
+
+
+.easy-to-use__text {
+   width: 450px;
+}
+
+.easy-to-use__text__h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 56px;
+}
