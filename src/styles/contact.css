@@ -1,0 +1,27 @@
+.contact {
+    padding-top: 75px;
+    padding-bottom: 125px;
+}
+
+.contact > div {
+    display: flex;
+    gap: 125px;
+}
+
+.contact__text--wrapper {
+    width: 450px;
+    text-align: justify;
+}
+
+.contact__text--wrapper--h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 35px;
+}
+
+.contact__text--wrapper--p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
