@@ -1,3 +1,13 @@
+@import "../../src/styles/contact.css";
+@import "../../src/styles/easy-to-use.css";
+@import "../../src/styles/features.css";
+@import "../../src/styles/footer.css";
+@import "../../src/styles/hero.css";
+@import "../../src/styles/hero-wrapper.css";
+@import "../../src/styles/stay-focused.css";
+@import "../../src/styles/technology.css";
+
+
 @font-face {
     font-family: Lato;
     font-display: swap;
