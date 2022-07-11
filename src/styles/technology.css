@@ -2,3 +2,50 @@
     padding-top: 65px;
     padding-bottom: 110px;
 }
+
+.technology-h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 65px;
+}
+
+.technology-ol {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.technology-ol__li {
+    width: 255px;
+}
+
+.technology-ol__li-number {
+    color: rgba(16, 16, 16, 0.08);
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 1.2;
+}
+
+.technology-ol__li__text-wrapper {
+    transform: translate(0px, -60px);
+}
+
+.technology-ol__li--icon {
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.technology-ol__li--h3 {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.technology-ol__li--p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+}
