@@ -17,10 +17,13 @@
     font-weight: 700;
     line-height: 1.2;
     color: #FFFFFF;
+    text-transform: uppercase;
     display: flex;
     gap: 10px;
-    text-transform: uppercase;
+    height: 20px;
 }
+
+
 
 .header-navmenu-ul {
     display: flex;
