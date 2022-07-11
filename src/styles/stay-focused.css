@@ -1,0 +1,44 @@
+.stay-focused {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: rgba(237, 76, 92, 1);
+
+}
+
+.stay-focused > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.stay-focused__text {
+    width: 450px;
+}
+
+.stay-focused__map__wrapper {
+    width: 540px;
+    border: 1px solid rgba(237, 76, 92, 1);
+    border-radius: 15px;
+}
+
+iframe {
+    border: 1px solid rgba(237, 76, 92, 1);
+    border-radius: 15px;
+}
+
+.stay-focused__text--h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 35px;
+    color: #FFFFFF;
+}
+
+.stay-focused__text--p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
