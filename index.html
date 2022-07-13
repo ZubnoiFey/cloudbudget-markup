@@ -10,136 +10,139 @@
     <link href="src/styles/index.css" rel="stylesheet">
 </head>
 <body>
-<div class="hero-wrapper">
-    <div class="container">
+<div class="hero">
+    <div class="background-img">
         <header class="header">
-            <a href="#" class="hero-wrapper_header_icon"><img src="src/img/cloudheader.png" alt="A cloud icon"
-                                                              class="header__icon">Cloudbudget</a>
-            <nav class="header-navmenu">
-                <ul class="header-navmenu-ul">
-                    <li class="header-navmenu_li"><a href="#" class="header-navmenu_li_a">Overview</a></li>
-                    <li class="header-navmenu_li"><a href="#" class="header-navmenu_li_a">Features</a></li>
-                    <li class="header-navmenu_li"><a href="#" class="header-navmenu_li_a">Technology</a></li>
-                    <li class="header-navmenu_li"><a href="#" class="header-navmenu_li_a">Contact</a></li>
-                    <li class="header-navmenu_li"><a href="#" class="header-navmenu_li_a">Sign up</a></li>
-                </ul>
-            </nav>
-            <div class="hero-button__wrapper">
-                <button class="header-button">Login</button>
+            <!--        header__container для флексов-->
+            <div class="container header__container">
+                <a href="#" class="logo">
+                    <img src="src/img/cloudheader.png" alt="An icon of the header" class="logo__img">
+                    <span class="logo__text">Cloudbudget</span>
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item"><a href="#" class="header__link">Overview</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Features</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Technology</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Contact</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Sign up</a></li>
+                    </ul>
+                </nav>
+                <button class="header__btn">
+                    Login
+                </button>
             </div>
         </header>
-    </div>
-    <section class="hero">
-        <div class="container">
-            <h1 class="hero-h1">
-                Cloudbudget
-            </h1>
-            <p class="hero-paragraph">
-                Cloud budget management for everyone. Only<br> €69.95 a Month After a 7 Day Trial of<br>
-                Up to €4.99
-            </p>
-            <div class="hero-button__wrapper">
-                <button class="hero-button">Sign up</button>
+        <section class="hero-content">
+            <div class="container hero-content__container">
+                <h1 class="hero-content__title">Cloudbudget</h1>
+                <p class="hero-content__text">Cloud budget management for everyone. Only <br> €69.95 a Month After a 7 Day
+                    Trial of <br> Up to €4.99</p>
+                <div class="hero-button__wrapper">
+                    <button class="hero-content__button">Sign up</button>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </div>
-<section class="easy-to-use">
-    <div class="container">
-        <div class="easy-to-use__text">
-            <h2 class="easy-to-use__text__h2">Easy to Use Cloud Budget Management Software</h2>
-            <p class="easy-to-use__text__p">
-                Our software is made so you can access and manage your budget and expenses online at any time from any
-                device. It provides detailed income and expense reports with graphs so you can easilly see your spending
-                patterns and budget at a glance. Read below to find out more.
-            </p>
-        </div>
-        <img src="src/img/Video-Section.png" alt="A video of a grop of people" class="easy-to-use__img">
+<section class="about">
+    <!-- Для флексов добавляем class about__container   -->
+    <div class="container about__container">
+   <div class="about__text">
+       <h2 class="title about__title">
+           Easy to Use Cloud Budget Management Software
+       </h2>
+       <p class="about__title text">
+           Our software is made so you can access and manage your budget and expenses online at any time from any
+           device. It provides detailed income and expense reports with graphs so you can easilly see your spending
+           patterns and budget at a glance. Read below to find out more.
+       </p>
+   </div>
+        <img src="src/img/Video-Section.png" alt="A video of a group o people" class="about__img">
     </div>
 </section>
 <section class="features">
-    <div class="container">
-        <h2 class="features__h2">Features</h2>
-        <ul class="features-list">
-            <li class="features-list__element">
-                <img src="src/img/Bg.jpg" alt="A man holds money" class="features-list-_element__text__image">
-                <div class="features-list-_element__text">
-                    <h3 class="features-list__element__h3">Supports All Currencies and Cards</h3>
-                    <p class="features-list__element__p">We support all popular currencies and is fully customizable to
-                        add</p>
-                    <a href="#" class="features-list__element__link">Read More</a></div>
+    <div class="container features__container">
+        <!--Все тайтлы одинаковые на странице, поэтому создаём компонент title, модификатор title-center и features__title для margin-->
+        <h2 class="title title-center features__title">Features</h2>
+        <ul class="features__list">
+            <li class="features__item">
+                <img src="src/img/Bg.jpg" alt="A woman holds money" class="features__img">
+                <div class="features__li-text">
+                    <h3 class="features__subtitle">Supports All Currencies and Cards</h3>
+                    <p class="features__text">We support all popular currencies and is fully customizable to add</p>
+                    <a href="#" class="features__link">Read More</a>
+                </div>
             </li>
-            <li class="features-list__element">
-                <img src="src/img/Second-image-li.jpg" alt="A woman holds a telephone"
-                     class="features-list-_element__text__image">
-                <div class="features-list-_element__text">
-                    <h3 class="features-list__element__h3">Manage your expenses on the go</h3>
-                    <p class="features-list__element__p">You can access your account from anywhere in the world on any
-                        device</p>
-                    <a href="#" class="features-list__element__link">Read More</a></div>
+            <li class="features__item">
+                <img src="src/img/Second-image-li.jpg" alt="A woman holds phone" class="features__img">
+                <div class="features__li-text">
+                    <h3 class="features__subtitle">Manage your expenses on the go</h3>
+                    <p class="features__text">You can access your account from anywhere in the world on any device</p>
+                    <a href="#" class="features__link">Read More</a>
+                </div>
             </li>
-            <li class="features-list__element">
-                <img src="src/img/third-picture-li.png" alt="A corridor with glass walls"
-                     class="features-list-_element__text__image">
-                <div class="features-list-_element__text">
-                    <h3 class="features-list__element__h3">Cloud Budget Management Software</h3>
-                    <p class="features-list__element__p">Our software is made so you can access and manage your
-                        budget</p>
-                    <a href="#" class="features-list__element__link">Read More</a></div>
+            <li class="features__item">
+                <img src="src/img/third-picture-li.png" alt="A corridor with glass walls" class="features__img">
+                <div class="features__li-text">
+                    <h3 class="features__subtitle">Cloud Budget Management Software</h3>
+                    <p class="features__text">Our software is made so you can access and manage your budget</p>
+                    <a href="#" class="features__link">Read More</a>
+                </div>
             </li>
         </ul>
     </div>
 </section>
 <section class="technology">
-    <div class="container">
-        <h2 class="technology-h2">Technology</h2>
-        <ol class="technology-ol">
-            <li class="technology-ol__li">
-                <p class="technology-ol__li-number">01</p>
-                <div class="technology-ol__li__text-wrapper">
-                    <img src="src/img/cloud.svg" alt="An icon of cloud" class="technology-ol__li--icon">
-                    <h3 class="technology-ol__li--h3">Cloud Storage</h3>
-                    <p class="technology-ol__li--p">Access your account from anywhere in the world on any device</p>
-                </div>
-            </li>
-            <li class="technology-ol__li">
-                <p class="technology-ol__li-number">02</p>
-                <div class="technology-ol__li__text-wrapper">
-                <img src="src/img/shield.svg" alt="An icon of shield" class="technology-ol__li--icon">
-                <h3 class="technology-ol__li--h3">Secure</h3>
-                <p class="technology-ol__li--p">All your information is stored on secure cloud servers</p>
-                </div>
-            </li>
-            <li class="technology-ol__li">
-                <p class="technology-ol__li-number">03</p>
-                <div class="technology-ol__li__text-wrapper">
-                <img src="src/img/pdf.png" alt="An icon of pdf-file" class="technology-ol__li--icon">
-                <h3 class="technology-ol__li--h3">PDF Download</h3>
-                <p class="technology-ol__li--p">Download any of your reports in PDF format</p>
-                </div>
-            </li>
-            <li class="technology-ol__li">
-                <p class="technology-ol__li-number">04</p>
-                <div class="technology-ol__li__text-wrapper">
-                <img src="src/img/CSV.svg" alt="An icon of csv-document" class="technology-ol__li--icon">
-                <h3 class="technology-ol__li--h3">CSV Download</h3>
-                <p class="technology-ol__li--p">All your information is stored on secure cloud servers</p>
-                </div>
-            </li>
-        </ol>
-    </div>
+<div class="container technology__container">
+    <h2 class="title title-center technology__title ">Technology</h2>
+    <ol class="technology__list">
+        <li class="technology__item">
+            <img src="src/img/cloud.svg" alt="An icon of a cloud" class="technology__img">
+            <h3 class="technology__subtitle">Cloud Storage</h3>
+            <p class="technology__text">Access your account from anywhere in the world on any device</p>
+        </li>
+        <li class="technology__item">
+            <img src="src/img/shield.svg" alt="An icon of a shield" class="technology__img">
+            <h3 class="technology__subtitle">Secure</h3>
+            <p class="technology__text">All your information is stored on secure cloud servers</p>
+        </li>
+        <li class="technology__item">
+            <img src="src/img/pdf.svg" alt="An icon of a PDF document" class="technology__img">
+            <h3 class="technology__subtitle">PDF Download</h3>
+            <p class="technology__text">Download any of your reports in PDF format</p>
+        </li>
+        <li class="technology__item">
+            <img src="src/img/CSV.svg" alt="An icon of a CSV document" class="technology__img">
+            <h3 class="technology__subtitle">CSV Download</h3>
+            <p class="technology__text">All your information is stored on secure cloud servers</p>
+        </li>
+    </ol>
+</div>
 </section>
 <section class="stay-focused">
-    <div class="container">
-        <div class="stay-focused__text">
-            <h2 class="stay-focused__text--h2">Stay focused on saving money</h2>
-            <p class="stay-focused__text--p">It is important to stay focused on saving money in any way you can. We help
-                you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join
-                today to get started!</p>
-            <a href="#" class="stay-focused__text__store"><img src="src/img/AppDownloadlink.svg" alt="An icon of store"
-                                                               class="stay-focused__text__store--img"></a>
+    <div class="container stay-focused__container">
+        <div class="stay-focused__wrap">
+            <!--    Модификатор title для размера шрифтов, title-light для цвета money__title для паддингов-->
+            <h2 class="title title--light stay-focused__title">Stay focused on saving money</h2>
+            <p class="stay-focused__text text">
+                It is important to stay focused on saving money in any way you can. We help you monitor your spending
+                habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!
+            </p>
+            <ul class="stay-focused__platforms">
+                <li class="stay-focused__platform"><a href="#" class="stay-focused__link">
+                    <img src="src/img/ion-logo-google-playstore.svg" alt="A playstore logo"
+                         class="stay-focused__icon"></a></li>
+                <li class="stay-focused__platform"><a href="#" class="stay-focused__link">
+                    <img src="src/img/ion-logo-apple-appstore.svg" alt="An appstore logo"
+                         class="stay-focused__icon"></a>
+                </li>
+                <li class="stay-focused__platform"><a href="#" class="stay-focused__link">
+                    <img src="src/img/simple-icons_windows.svg" alt="An appstore logo" class="stay-focused__icon"></a>
+                </li>
+            </ul>
         </div>
-        <div class="stay-focused__map__wrapper">
+        <div class="stay-focused__map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.5626140454174!2d35.052852116083066!3d48.4649210792509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2c338d87c15%3A0x8016e636e75a7c39!2z0L_Quy4g0KPRgdC_0LXQvdGB0LrQsNGPLCDQlNC90LXQv9GALCDQlNC90LXQv9GA0L7Qv9C10YLRgNC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNDkwMDA!5e0!3m2!1sru!2sua!4v1657474292968!5m2!1sru!2sua"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -147,69 +150,99 @@
     </div>
 </section>
 <section class="contact">
-    <div class="container">
-        <div class="contact__text--wrapper">
-            <h2 class="contact__text--wrapper--h2">Contact</h2>
-            <p class="contact__text--wrapper--p">Questions or concerns? Just fill out the form below and our support
-                team will get back to you within 24 hours. But I must explain to you how all this mistaken idea of
-                denouncing pleasure and praising pain was born and I will give you a complete account of the system, and
-                expound the actual teachings of the great explorer of the truth, the master-builder of human
-                happiness.</p>
+    <div class="container contact__container">
+        <div class="contact__wrapper">
+            <h2 class="title contact__title">
+                Contact
+            </h2>
+            <p class="contact__text text">
+                Questions or concerns? Just fill out the form below and our support team will get back to you within 24
+                hours. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                born and I will give you a complete account of the system, and expound the actual teachings of the great
+                explorer of the truth, the master-builder of human happiness.
+            </p>
         </div>
-        <div class="contact__form-wrapper">
-            <form class="contact__form-wrapper--form">
-                <label for="first-name" class="contact__form-wrapper--form--first-name-label name"><input type="text" id="first-name" placeholder="First name"></label>
-
-                <label for="last-name" class="contact__form-wrapper--form--last-name-label name" ><input type="text" id="last-name" placeholder="Last name"></label>
-
-                <label for="phone-number" class="contact__form-wrapper--form--phone-number-label"><input type="number" id="phone-number" placeholder="Phone number"></label>
-                <label class="contact__form-wrapper--form--select-option">
-                    <select name="select-option" id="select-option">
-                        <option class="contact__form-wrapper--form--select-option__option">Select service</option>
-                        <option class="contact__form-wrapper--form--select-option__option">Lorem ipsum</option>
-                        <option class="contact__form-wrapper--form--select-option__option">Lorem ipsum</option>
-                        <option class="contact__form-wrapper--form--select-option__option">Lorem ipsum</option>
-                    </select>
-                </label>
-                <button class="contact__form-wrapper--form--button">Submit now</button>
-            </form>
-        </div>
+<div class="form__wrapper">
+    <form action="" class="contact__form">
+        <label class="input input--half">
+            <!--input--half- это модификатор, который задаёт ширину инпута-->
+            <input type="text" class="input__input" placeholder="First Name"><!-- Блок input с элементом input-->
+        </label>
+        <label class="input input--half">
+            <input type="text" class="input__input" placeholder="Last Name"><!-- Блок input с элементом input-->
+        </label>
+        <label class="input">
+            <input type="text" class="input input__input" placeholder="Phone number">
+        </label>
+        <label class="input">
+            <select name="" id="" class="input input__input">
+                <option value="" class="input option">Select service</option>
+            </select>
+        </label>
+        <button class="contact__button">
+            Submit now
+        </button>
+    </form>
+</div>
     </div>
 </section>
 <footer class="footer">
-    <div class="container">
-        <ul class="footer-ul__address">
-            <li class="footer-ul__address__li">
-                <h2 class="footer-ul__li__h2 footer-address">Address</h2>
-                <p class="footer-ul__li__p">Pipang Ltd, Griva Digeni,
-                    81-83 Jacovides Tower, 1st Floor
-                    1090 Picosia USA</p>
-                <p class="footer-ul__li__p__copyright">Copyright 2020 CloudBudget</p>
-            </li>
-        </ul>
-        <ul class="footer-ul__services">
-            <li class="footer-ul__services__li">
-                <h2 class="footer-ul__li__h2 footer-services">Services</h2>
-                <a class="footer-services_a" href="#"><p class="footer-ul__li__p">Overview</p></a>
-                <a class="footer-services_a" href="#"><p class="footer-ul__li__p">Features</p></a>
-                <a class="footer-services_a" href="#"><p class="footer-ul__li__p">Technology</p></a>
-                <a class="footer-services_a" href="#"><p class="footer-ul__li__p">Terms & Conditions</p></a>
-                <a class="footer-services_a" href="#"><p class="footer-ul__li__p">Privacy</p></a>
-            </li>
-        </ul>
-        <ul class="footer-ul__get-in-touch">
-            <li class="footer-ul__get-in-touch__li"><h2 class="footer-ul__li__h2">Get in touch</h2>
-                <a href="mailto:info@cloudbudget.com" class="footer-services_a"><p class="footer-ul__li__p">
-                    info@cloudbudget.com</p></a>
-                <a href="#" class="footer-get-in-touch_a"><p class="footer-ul__li__p">+1 844-721-7120</p></a>
-                <a href="#" class="footer-get-in-touch_a"><img src="src/img/Social.svg" alt="A social media icons" class="footer-ul__li__social-media"></a>
-            </li>
-        </ul>
-        <ul class="footer-ul__we-support">
-            <li class="footer-ul__we-support__li"><h2 class="footer-ul__li__h2">We support</h2></li>
-            <li class="footer-ul__we-support__li"><img src="src/img/secure-p.jpg" alt="An icon of Visa and MasterCard"
-                                                       class="footer-ul__we-support__li__img"></li>
-        </ul>
+    <!--    Создаем контейнер для ширины и класс для флексов-->
+    <div class="container footer__container">
+        <section class="footer__item">
+            <h2 class="footer__title">
+                Contact
+            </h2>
+            <p class="footer__address">
+                Questions or concerns? Just fill out the form below and our support team will get back to you within 24
+                hours. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                born and I will give you a complete account of the system, and expound the actual teachings of the great
+                explorer of the truth, the master-builder of human happiness.
+            </p>
+        </section>
+        <section class="footer__item">
+            <h2 class="footer__title">Address</h2>
+            <p class="footer__text">Pipang Ltd, Griva Digeni,
+                81-83 Jacovides Tower, 1st Floor
+                1090 Picosia USA</p>
+
+        </section>
+        <section class="footer__item">
+            <h2 class="footer__title">Services</h2>
+            <ul class="footer__list">
+                <li class="footer__list-item">
+                    <a href="#" class="footer__link"> Overview</a>
+                    <a href="#" class="footer__link">Features</a>
+                    <a href="#" class="footer__link">Technology</a>
+                    <a href="#" class="footer__link">Terms & Conditions</a>
+                    <a href="#" class="footer__link">Privacy</a>
+                </li>
+            </ul>
+        </section>
+        <section class="footer__item">
+            <h2 class="footer__title">
+                Get in Touch
+            </h2>
+   <ul class="footer__list">
+       <li class="footer__list-item">
+           <a href="mailto:info@cloudbudget.com" class="footer__link">info@cloudbudget.com</a>
+           <a href="tel:+1 844-721-7120" class="footer__link">+1 844-721-7120</a>
+       </li>
+       <li class="footer__list-item">
+           <a href="#" class="footer__link"> <img src="src/img/fb-footer-icon.svg" alt="A facebook icon"></a>
+           <a href="#" class="footer__link"> <img src="src/img/feather-linkedin.svg" alt="A Linkedin icon"></a>
+           <a href="#" class="footer__link"> <img src="src/img/twitter-footer-.png" alt="A Twitter icon"></a>
+       </li>
+   </ul>
+        </section>
+        <section class="footer__item">
+            <h2 class="footer__title">
+                We Support</h2>
+                <img src="src/img/secure-p.jpg" alt="Mastercard icon">
+        </section>
+        <p class="footer__text-bottom">
+            Copyright 2020 CloudBudget
+        </p>
     </div>
 </footer>
 </body>
