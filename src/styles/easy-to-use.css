@@ -1,25 +1,22 @@
-.easy-to-use {
+.about {
     padding-top: 90px;
     padding-bottom: 45px;
 }
 
-.easy-to-use > div {
+
+
+.about__container {
     display: flex;
     gap: 125px;
-    align-items: end;
 }
 
 
 .easy-to-use__text {
     width: 450px;
-
 }
 
-.easy-to-use__text__h2 {
-    font-size: 36px;
-    line-height: 1.2;
-    font-weight: 600;
-    margin-bottom: 58px;
+.about__title {
+    margin-bottom: 56px;
 }
 
 .contact__form-wrapper {

@@ -1,4 +1,4 @@
-.hero-wrapper {
+.background-img {
     padding-top: 40px;
     padding-bottom: 40px;
     background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url("../../src/img/hero-image.jpg");
@@ -7,29 +7,31 @@
 }
 
 
-.header {
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.hero-wrapper_header_icon {
+.logo__text {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.2;
     color: #FFFFFF;
     text-transform: uppercase;
-    display: flex;
     gap: 10px;
     height: 20px;
 }
 
 
 
-.header-navmenu-ul {
+.header__list{
     display: flex;
     justify-content: space-between;
     gap: 30px;
+}
+
+.header__link {
     font-size: 14px;
     font-weight:400;
     line-height: 1.2;
@@ -37,11 +39,8 @@
     color: #FFFFFF;
 }
 
-.header-navmenu_li_a {
-    color: #FFFFFF;
-}
 
-.header-button {
+.header__btn{
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 6px;
@@ -53,13 +52,13 @@
     text-transform: uppercase;
 }
 
-.hero {
+.hero-content {
     padding-top: 180px;
     padding-bottom: 180px;
 
 }
 
-.hero-h1 {
+.hero-content__title {
     display: flex;
     justify-content: center;
     font-size: 72px;
@@ -70,7 +69,7 @@
     margin-bottom: 40px;
 }
 
-.hero-paragraph {
+.hero-content__text {
     display: flex;
     justify-content: center;
     font-size: 24px;
@@ -86,7 +85,7 @@
     justify-content: center;
 }
 
-.hero-button {
+.hero-content__button {
     color: rgba(213, 32, 71, 0.8);
     border: 1px solid #FFFFFF;
     border-radius: 6px;

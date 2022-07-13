@@ -1,0 +1,19 @@
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.title-center {
+    text-align: center;
+}
+
+.title--light {
+    color: #FFFFFF;
+}
