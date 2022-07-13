@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 
-.footer-ul__li__p {
+.footer__text {
     width: 250px;
     font-size: 14px;
     font-weight: 400;
@@ -18,7 +18,7 @@
 }
 
 
-.footer-ul__li__h2 {
+.footer__title {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.2;
@@ -26,8 +26,17 @@
     margin-bottom: 35px;
 }
 
-.footer-ul__li__p__copyright {
-   margin-top: 130px;
+
+.footer__list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link {
+  color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 .footer-ul__li__social-media {
