@@ -1,6 +1,6 @@
 .features {
     padding-top: 43px;
-    padding-bottom: 90px;
+    padding-bottom: 80px;
     background-color: #FAFAFA;
 }
 
@@ -17,7 +17,7 @@
     justify-content: space-between;
 }
 
-.features__li-text{
+.features__li-wrapper{
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
     text-align: center;
