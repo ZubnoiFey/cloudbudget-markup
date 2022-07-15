@@ -44,11 +44,17 @@
 
 }
 .input {
-   width: 97.5%;
+   width: 100%;
     background-color: #FFFFFF;
     color: #333333;
+    padding: 20px;
+    border: 1px solid #333333;
+    border-radius: 6px;
 }
 
+.input__text {
+    border: none;
+}
 
 .input--half {
     width: 48%;
@@ -56,8 +62,12 @@
 
 .input__input {
     padding: 20px;
-    border: 1px solid #333333;
-    border-radius: 6px;
+}
+
+#form__select {
+    background-color: #FFFFFF;
+    border: none;
+    color: #333333;
 }
 
 .contact__button {

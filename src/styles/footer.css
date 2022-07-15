@@ -1,13 +1,14 @@
 .footer {
-    padding-top: 90px;
+    padding-top: 40px;
     padding-bottom: 90px;
     background-color: #FAFAFA;
 }
 
-.footer > div {
+.footer__list {
     display: flex;
     justify-content: space-between;
 }
+
 
 .footer__text {
     width: 250px;
@@ -26,12 +27,9 @@
     margin-bottom: 35px;
 }
 
-
-.footer__list-item {
-    display: flex;
-    flex-direction: column;
+.footer__text--bottom {
+    margin-top: 135px;
 }
-
 .footer__link {
   color: rgba(0, 0, 0, 1);
     font-size: 14px;
