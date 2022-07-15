@@ -3,15 +3,12 @@
     padding-bottom: 45px;
 }
 
-
-
 .about__container {
     display: flex;
     gap: 125px;
 }
 
-
-.easy-to-use__text {
+.about__text {
     width: 450px;
 }
 
