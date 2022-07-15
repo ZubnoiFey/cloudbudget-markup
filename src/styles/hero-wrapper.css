@@ -1,4 +1,4 @@
-.background-img {
+.hero {
     padding-top: 40px;
     padding-bottom: 40px;
     background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url("../../src/img/hero-image.jpg");
@@ -13,7 +13,7 @@
     align-items: center;
 }
 
-.logo__text {
+.logo {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.2;
@@ -21,6 +21,7 @@
     text-transform: uppercase;
     gap: 10px;
     height: 20px;
+    display: flex;
 }
 
 
@@ -40,7 +41,7 @@
 }
 
 
-.header__btn{
+.header__button{
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 6px;
@@ -71,16 +72,16 @@
 
 .hero-content__text {
     display: flex;
-    justify-content: center;
+justify-content: center;
     font-size: 24px;
     font-weight: 600;
     line-height: 1.5;
     color: #FFFFFF;
-    text-align: center;
     margin-bottom: 60px;
+text-align: center;
 }
 
-.hero-button__wrapper {
+.hero-content__button-wrapper {
     display: flex;
     justify-content: center;
 }
