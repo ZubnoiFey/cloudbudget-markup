@@ -6,10 +6,12 @@
 .about__container {
     display: flex;
     gap: 125px;
+    align-items: end;
 }
 
-.about__text {
+.about__text-wrapper {
     width: 450px;
+
 }
 
 .about__title {

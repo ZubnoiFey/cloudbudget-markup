@@ -4,13 +4,23 @@
     background-color: #FAFAFA;
 }
 
-.footer__list {
+
+.footer__container {
     display: flex;
-    justify-content: space-between;
+    gap: 90px;
 }
 
+.footer__list {
+    display: flex;
+    gap: 220px;
+}
 
-.footer__text {
+.footer__list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__address {
     width: 250px;
     font-size: 14px;
     font-weight: 400;
@@ -27,16 +37,29 @@
     margin-bottom: 35px;
 }
 
+.footer__heading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: rgba(16, 16, 16, 1);
+    margin-bottom: 45px;
+}
+
+
 .footer__text--bottom {
     margin-top: 135px;
 }
+
 .footer__link {
-  color: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.6;
 }
 
-.footer__text--social {
-    margin-bottom: 20px;
+
+.footer__social-icons {
+    display: flex;
+gap: 10px;
+    margin-top: 20px;
 }
