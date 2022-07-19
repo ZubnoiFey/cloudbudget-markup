@@ -42,4 +42,5 @@ iframe {
 .stay-focused__platforms {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
